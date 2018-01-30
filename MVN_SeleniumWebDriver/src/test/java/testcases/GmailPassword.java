@@ -56,8 +56,9 @@ public class GmailPassword {
 		System.out.println("Wrong Pass error: " +wrongPass.getText());
 		*/
 		
+		
 		driver.close();//close current page
-		driver.quit();//close entire session
+		////driver.quit();//close entire session
 	}
 
 }
